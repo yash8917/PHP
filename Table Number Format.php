@@ -1,5 +1,5 @@
 <?php
-    echo  "<table style=' border: 2px dashed darkred'> ";
+    echo  "<table style=' border: 2px solid darkred'> ";
     $num = 1;
     for($val = 1; $val <=10 ; $val++) {
         echo "<tr>";
