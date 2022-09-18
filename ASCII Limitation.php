@@ -31,3 +31,4 @@ switch ($val >= 48 && $val <= 57 ) {
 //    default: echo " char is a Spacial Charater";
 }
 ?>
+
