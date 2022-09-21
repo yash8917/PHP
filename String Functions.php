@@ -2,9 +2,9 @@
 //echo "hello";
 echo addcslashes("section j is 3rd yr students" , "rd");
 echo "<br>";
-echo addslashes("hello world");
+echo addslashes("hel;m;lo world");
 echo "<br>";
-echo bin2hex("hii.");
+echo bin2hex("hii");
 echo "<br>";
 echo hex2bin("6869692e");
 echo "<br>";
