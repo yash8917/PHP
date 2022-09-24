@@ -1,0 +1,1 @@
+<!--write a php script to showthe working of  calculator having addi , sub , divi, modulo ,mul-->
