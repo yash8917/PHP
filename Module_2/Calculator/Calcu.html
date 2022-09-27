@@ -6,19 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc</title>
 </head>
+
+<style>
+    body{
+        background: rgb(197, 123, 123);
+    }
+    .box{
+        
+        margin: auto;
+        font-size: 15px;
+        padding: 2rem;
+        border: 2px solid black;
+        background-color: #bbb5bb;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .container{
+       
+        display: inline-block; 
+        border: 2px solid black;
+        background: rgb(218, 251, 175);
+        float: left;
+    }
+</style>
 <body>
 
     <form action="Calc.php" method="post">
-  
-        <input type="number" name="n1" placeholder="Enter First number">
-        <input type="number" name="n2" placeholder="Enter second number">
+  <div class="container">
+        <input class="box" type="number" name="n1" placeholder="Enter First number"><br>
+        <input class="box" type="number" name="n2" placeholder="Enter second number">
         <br><br>
-        <input type="submit" name="add" value="Addition">
-        <input type="submit" name="sub" value="Subtaction">
-        <input type="submit" name="mul" value="Multiplication">
-        <input type="submit" name="div" value="Divison">
-        <input type="submit" name="mod" value="Modulo">
-        
+        <input class="btn" type="submit" name="add" value="Addition"><br>
+        <input class="btn" type="submit" name="sub" value="Subtraction"><br>
+        <input class="btn" type="submit" name="mul" value="Multiplication"><br>
+        <input class="btn" type="submit" name="div" value="Divison"><br>
+        <input class="btn" type="submit" name="mod" value="Modulo">
+    </div>
     </form>
 </body>
 </html>

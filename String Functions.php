@@ -70,6 +70,7 @@ echo"<br>";
 echo htmlspecialchars("gla University",);
 
 echo "<br>";
+
 echo strtolower("KVNDJFSVBNnl");
 echo "<br>";
 echo strtoupper("dfbsfws");
@@ -94,5 +95,8 @@ echo strchr("hello","l");
 echo "<br>";
 echo strstr("hello" , "e");
 echo "<br>";
+
+
+echo round("234123.7");
 
 ?>
