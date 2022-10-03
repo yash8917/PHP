@@ -96,7 +96,6 @@ echo "<br>";
 echo strstr("hello" , "e");
 echo "<br>";
 
-
 echo round("234123.7");
 
 ?>
