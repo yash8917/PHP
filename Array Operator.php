@@ -6,7 +6,7 @@ echo var_dump($ar + $ar_2);
 echo "<br>";
 
 $ar=[1,2,3];
-$ar_2 =['4' => 5];
+$ar_2 =['4' => 98];
 echo var_dump($ar + $ar_2);
 
 echo "<br>";
@@ -15,7 +15,6 @@ $ar_2=["a" =>232];
 echo var_dump($ar +$ar_2);
 
 echo "<br>";
-
 $ar_2=[11,22,33,"5" =>"hi" , "gla"];
 echo var_dump($ar + $ar_2);
 
