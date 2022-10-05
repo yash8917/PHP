@@ -35,7 +35,7 @@ echo sha1("hello");
 echo "<br>";
 //echo sha1_file("hi");
 echo "<br>";
-echo str_replace("e","0","Hello Gla University");
+echo str_replace("ell","0","Hello Gla University");
 echo "<br>";
 echo strrev("Gla University");
 echo "<br>";
