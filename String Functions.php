@@ -2,11 +2,11 @@
 //echo "hello";
 echo addcslashes("section j is 3rd yr students" , "rd");
 echo "<br>";
-echo addslashes("hel;m;lo world");
+echo addslashes("hel;m;lo'world");
 echo "<br>";
 echo bin2hex("hii");
 echo "<br>";
-echo hex2bin("6869692e");
+echo hex2bin("6865692e");
 echo "<br>";
 echo chunk_split("this is the class of sec j","4","__");
 echo "<br>";
@@ -57,7 +57,7 @@ echo strcasecmp("Hello","hErllo");  //-6
 echo "<br>";
 echo strnatcmp("Hii","hii"); // same strcmp
 echo "<br>";
-echo strnatcasecmp("helLo","Hello");
+echo strnatcasecmp("helLo","hello");
 echo "<br>";
 echo crc32("hello");
 echo "<br>";
@@ -67,7 +67,7 @@ echo htmlentities($str);
 echo"<br>";
 
 
-echo htmlspecialchars("gla University",);
+echo htmlspecialchars("gla University");
 
 echo "<br>";
 
@@ -77,7 +77,7 @@ echo strtoupper("dfbsfws");
 echo "<br>";
 echo metaphone("university"); // o/p the pronouns
 echo "<br>";
-echo number_format("12223424","3",":","-");
+echo number_format("192223424","3",":","-");
 echo "<br>";
 echo chr(65);
 echo"<br>";
