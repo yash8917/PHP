@@ -13,4 +13,4 @@ echo strtolower("WEllcome to GLA ");
 echo "<br>";
 echo ucfirst("gla university");
 echo "<br>";
-echo lcfirst("Gla University");
+echo ucwords("Gla university");

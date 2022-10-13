@@ -16,7 +16,7 @@
                 <td> <input type="text" value="yash" readonly  name="userName" placeholder="Enter Your name"  autocomplete="off" autofocus="off" ></td></tr>
             <tr>
                 <td><label for="">Contact Number</label></td>
-                <td><input type="number"   name="userName" placeholder="Enter Your number"  autocomplete="off"></td>  
+                <td><input type="number"   name="userContact" placeholder="Enter Your number"  autocomplete="off"></td>
                 <!-- password , email , add. -->
             </tr>
             <tr>

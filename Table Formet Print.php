@@ -15,8 +15,6 @@
 </head>
 <body>
 
-
-
 <?php
 
 echo "<table style=' border-collapse: collapse'>";

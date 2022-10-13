@@ -2,9 +2,9 @@
 <html>
 
 <body>
- <table width="400px" border="1px" cellspacing="0px">
+ <table width="400px" border="1px" cellspacing="2px">
   <?php
-  echo "Chess by GeeksforGeeks";
+  echo "Chess Board";
   $value = 0;
 
   for($col = 0; $col < 8; $col++) {

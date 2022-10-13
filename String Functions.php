@@ -30,7 +30,7 @@ echo "<br>";
 echo crypt("heyasllo","e");
 echo "<br>";
 echo md5("hello");
-echo "<br>";
+echo "<br>-----------";
 echo sha1("hello");
 echo "<br>";
 //echo sha1_file("hi");
@@ -97,5 +97,13 @@ echo strstr("hello" , "e");
 echo "<br>";
 
 echo round("234123.7");
+echo "<br>";
+
+echo crypt("Ramayan","y");
+
+echo "<br>";
+echo convert_uudecode(convert_uuencode("hii"));
+
+
 
 ?>
