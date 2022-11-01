@@ -1,6 +1,7 @@
 <?php
 $val =ord("#");
 echo $val ;
+
 switch ($val >= 48 && $val <= 57 ) {
     case 1:
         echo "<br>";
@@ -30,5 +31,6 @@ switch ($val >= 48 && $val <= 57 ) {
 //    default: echo " char is a Spacial Charater";
 
 }
+//end the main block
 ?>
 
