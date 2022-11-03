@@ -2,7 +2,7 @@
 
 class firstClass
 {
- public $exam="Hello Php ";
+ public $exam="Hello PhP ";
  public $text ="Jet brains";
 
 }
