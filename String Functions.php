@@ -21,7 +21,7 @@ print_r(explode(" ","this is the class of sec j"));
 echo "<br>";
 $ar=["a", "b", "c"];
 echo implode("_",$ar);
-echo"<br>";
+echo"<br>"."-------------------";
 print_r(str_split("this is the gla","2")) ;
 echo "<br>";
 
