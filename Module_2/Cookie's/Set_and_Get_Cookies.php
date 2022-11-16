@@ -12,6 +12,15 @@ if(!$_COOKIE['user']){
 }else {
     echo $_COOKIE[$cookie_value];
 }
+
+
+// Delete the cookie
+
+setcookie($cookie_name,"",time() - 3600 ,"/");
+
+
+
+
 ?>
 
 </body>
