@@ -1,4 +1,5 @@
 <?php
+
 if(isset($_POST['save'])){
 
     $name=$_POST['name'];
@@ -15,7 +16,7 @@ if($connection == false){
 
     if(mysqli_query($connection , $insert_query)){
     echo "You are Registered.";
-    header("refresh: 5 , url=form.html");
+    header("refresh: 2 , url=form.html");
     }
 }
 if(isset($_POST['display'])){
@@ -25,8 +26,8 @@ if(isset($_POST['display'])){
         echo "Connection is not Established";
         exit();
     }
-    $sql="SELECT Id,UName,Email,Password FROM formtable";
-    $result=mysqli_query($connection , $sql);
+    $display_query="SELECT Id,UName,Email,Password FROM formtable";
+    $result=mysqli_query($connection , $display_query);
     if(mysqli_num_rows($result)>0)
     {
         echo "<table border='1'>
