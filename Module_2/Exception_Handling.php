@@ -43,5 +43,5 @@ echo "<form action='$_SERVER[PHP_SELF]' method='post'>
         catch(NumberIsNegative $eh){
             echo $eh->getMessage();
         }
-        
+        echo "Answer : ".$num/$denom;
     }
